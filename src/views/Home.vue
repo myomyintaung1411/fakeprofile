@@ -58,10 +58,10 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
               <img v-if="m == 2" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/9.png" alt="Image Size 720x400" />
               <img v-if="m == 3" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/10.png" alt="Image Size 720x400" />
               <img v-if="m == 4"  class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/11.png" alt="Image Size 720x400" />
-              <p v-if="m == 1" class="leading-relaxed text-base pt-4  ">团结就是</p>
-              <p v-if="m == 2" class="leading-relaxed text-base pt-4  ">团结就是</p>
-              <p v-if="m == 3" class="leading-relaxed text-base pt-4  ">团结就是</p>
-              <p v-if="m == 4" class="leading-relaxed text-base pt-4  ">团结就是</p>
+              <p v-if="m == 1" class="leading-relaxed text-base pt-4  ">成立时间</p>
+              <p v-if="m == 2" class="leading-relaxed text-base pt-4  ">服务人数</p>
+              <p v-if="m == 3" class="leading-relaxed text-base pt-4  ">优秀团队长</p>
+              <p v-if="m == 4" class="leading-relaxed text-base pt-4  ">对接项目</p>
               <h1 v-if="m == 1" class="font-bold text-[#1d4ed8] text-[40px]">2019</h1>
               <h1 v-if="m == 2" class="font-bold text-[#1d4ed8] text-[40px]">3567</h1>
               <h1 v-if="m == 3" class="font-bold text-[#1d4ed8] text-[40px]">186</h1>
@@ -77,7 +77,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
          <div class="pt-[100px] flex flex-col justify-center items-center">
           <div class="relative h-11  text-center">
             <img src="@/assets/1/13.png" alt="copo" class="w-fit h-fit" />
-            <div class="absolute m-auto left-0 right-0 -top-2 text-center font-semibold text-gray-600 text-2xl ">团结就是</div>
+            <div class="absolute m-auto left-0 right-0 -top-2 text-center font-semibold text-gray-600 text-2xl ">合作伙伴</div>
           </div>
           <div class=" uppercase text-gray-500 text-lg sm:text-[30px]  tracking-widest">cooperation brand</div>
          </div>
