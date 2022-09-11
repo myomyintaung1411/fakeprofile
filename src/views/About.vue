@@ -46,8 +46,8 @@
       </div>
     </div>
     <div class="py-20 w-full relative">
-      <div class="w-full">
-        <img src="@/assets/2/4.png" alt="" class="w-full h-fit">
+      <div class="w-full h-48 sm:h-fit">
+        <img src="@/assets/2/4.png" alt="" class="w-full h-full sm:h-fit">
       </div>
       <div class="container sm:px-[43px]    mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg  ">
         <div class="  bg-white py-20 px-4 sm:px-16 tracking-widest  ">
