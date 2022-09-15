@@ -9,7 +9,7 @@
                     <div class="sm:w-1/2 h-full">
                         <img src="@/assets/3/2.png" alt="" class="w-full h-full">
                     </div>
-                    <div class="sm:w-1/2 text-left sm:px-20">
+                    <div class="sm:w-1/2 text-left sm:px-16">
                         <div class=" sm:text-left sm:w-[400px] w-full text-center px-5 sm:px-0">
                             <h1 class="text-[30px] tracking-wide py-3 ">挚诚价值观</h1>
                             <p class=" text-base tracking-wide leading-10">共同奉献，所谓“人心齐，泰山移”。团队的含义
@@ -23,9 +23,9 @@
         </div>
         <div class="py-5 w-full bg-white sm:bg-transparent">
             <div class="container sm:h-[300px]  mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg  ">
-                <div class="flex flex-wrap w-full h-full justify-center items-center">
+                <div class="flex  w-full h-full justify-center items-center">
                     <div class="sm:w-1/2 text-left ">
-                        <div class=" sm:text-left sm:w-[400px] w-full text-center px-5 sm:px-0">
+                        <div class=" sm:text-left sm:w-[350px] w-full text-center px-5 sm:px-0">
                             <h1 class="text-[30px] tracking-wide py-3 ">挚诚初心</h1>
                             <p class=" text-base tracking-wide leading-10">服务于创业伙伴的成长，公会与创业伙伴秉承挚诚
                                 合作、共同进步、挚之以恒、诚心实意、挚诚团结、
@@ -44,7 +44,7 @@
                     <div class="sm:w-1/2 h-full">
                         <img src="@/assets/3/2.png" alt="" class="w-full h-full">
                     </div>
-                    <div class="sm:w-1/2 text-left sm:px-20">
+                    <div class="sm:w-1/2 text-left sm:px-16">
                         <div class=" sm:text-left sm:w-[400px] w-full text-center px-5 sm:px-0">
                             <h1 class="text-[30px] tracking-wide py-3 ">挚诚理念</h1>
                             <p class=" text-base tracking-wide leading-10">我们尊重自我个性的尽情展现，更崇尚集体智慧的
@@ -60,7 +60,7 @@
             <div class="container sm:h-[300px] w-full  mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg  ">
                 <div class="flex flex-wrap w-full h-full justify-center items-center">
                     <div class="sm:w-1/2 text-left ">
-                        <div class=" sm:text-left sm:w-[400px] w-full text-center px-5 sm:px-0">
+                        <div class=" sm:text-left sm:w-[350px] w-full text-center px-5 sm:px-0">
                             <h1 class="text-[30px] tracking-wide py-3 ">挚诚精神</h1>
                             <p class=" text-base tracking-wide leading-10">公会始终秉承共赢精神，意味着与社会各方保持着
                                 良好的关系，营造和谐的发展环境，实现优势互补，

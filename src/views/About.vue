@@ -8,16 +8,17 @@
     </div>
     <div class="py-5  w-full">
       <div class="container px-5 py-5 sm:py-20 mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg ">
-        <div class="flex flex-wrap">
+        <div class="flex ">
           <div class="sm:w-1/2">
             <div class=" py-5">
-              <h1 class="text-[30px] tracking-wide">团结就是</h1>
+              <h1 class="text-[30px] tracking-wide">公会简介</h1>
               <p class="uppercase">Introduction of the guild</p>
             </div>
-            <div class="sm:w-[500px]">
-              <p class="leading-relaxed text-base tracking-wide  ">团结就是力量，团结就是胜利，人心齐，泰山移，
-                只要挚诚公会成员能够团结起来，充分发挥集体力量，拳头有握紧了，
-                才能打出力量。只要上下一致，团结有爱，任何团难都阻挡不了我们前进的脚步。</p>
+            <div class="">
+              <p class=" leading-relaxed text-base tracking-wide  ">2019年疫情狂潮席卷全国，实体经济面临严重威胁，
+                挚诚公会逆势而生，依托互联网和移动互联网为基点，
+                通过云计算和大数据技术、社交网络的属性；
+                为广大成员用户搭建国内一流共享创业服务平台。</p>
             </div>
           </div>
           <div class="sm:ml-20">
@@ -28,13 +29,13 @@
     </div>
     <div class="py-5  w-full bg-white">
       <div class="container px-5 py-5 sm:py-20 mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg ">
-        <div class="flex flex-wrap">
+        <div class="flex ">
           <div class="sm:mr-20">
             <img src="@/assets/2/3.png" alt="" class="w-full h-52">
           </div>
           <div class="sm:w-1/2 flex justify-center items-center">
-            <div class="sm:w-[400px]">
-              <p class=" text-base tracking-wide  " style="line-height:40px">公会致力于互联网行业发展，推动时代经济发展。
+            <div>
+              <p class=" text-base tracking-wide leading-9">公会致力于互联网行业发展，推动时代经济发展。
                 公会成员内部汇聚了许多国内知名的互联网业内人士，
                 在短短几年里发展迅速，
                 在互联网行业领域深受业内人士认可及追捧，是近年来，
@@ -62,7 +63,7 @@
     <div class="pb-20">
     <div class="  w-full bg-white">
       <div class="container py-5 sm:py-0 px-5 h-[400px] w-full  mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg ">
-        <div class="flex flex-wrap justify-center  items-center ">
+        <div class="flex  justify-center  items-center ">
           <div class="sm:w-1/2 w-full">
             <div class="sm:w-[400px] w-full">
               <p class=" text-base tracking-wide leading-7 sm:leading-10" >挚诚公会本着“人心齐，泰山移”的核心理念，积极推动国际化，多元化发展战略。
@@ -71,7 +72,7 @@
                 为社会经济发展做出了重要贡献。</p>
             </div>
           </div>
-          <div class=" h-64  sm:py-0 sm:h-fit w-full sm:w-auto ">
+          <div class=" h-64  sm:py-0 sm:h-fit w-full sm:w-auto ml-20 ">
             <img src="@/assets/2/5.png" alt="" class="sm:h-[400px] w-full h-full">
           </div>
         </div>

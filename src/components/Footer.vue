@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#1f1f1f] py-10 w-full">
+    <!-- <div class="bg-[#1f1f1f] py-10 w-full">
        <div class="container sm:px-5 px-3  mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg">
          <div class="flex flex-wrap justify-between">
             <div class="sm:w-1/2 w-full">
@@ -38,8 +38,8 @@
             </div>
          </div>
        </div>
-    </div>
-    <div class="py-5 text-white bg-black">
+    </div> -->
+    <div class="py-5 text-white bg-black ">
         <p class="text-center text-sm sm:text-base break-words">Copyright © 2019 挚诚公会 版权所有 粤ICP备12087766号</p>
     </div>
 </template> 

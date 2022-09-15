@@ -1,5 +1,7 @@
 <script setup>
 import ButtonRepo from '@/components/ButtonRepo.vue'
+import { Vue3Marquee } from 'vue3-marquee'
+import 'vue3-marquee/dist/style.css'
 </script>
 
 <template>
@@ -8,20 +10,20 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
       <img src="@/assets/1/2.png" alt="banner" class="w-full h-full"/>
     </div>
     <div class="container px-5 py-10 sm:py-28 w-full mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg">
-      <div class="flex flex-wrap -m-4 justify-center">
+      <div class="flex  -m-4 justify-center">
         <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 p-4  hover:translate-y-2 transition duration-300 " v-for="n in 4" :key="n">
-          <div class="bg-white sm:w-[275px] w-full shadow   flex flex-col items-center  cursor-pointer sm:shadow-lg">
+          <div class="bg-white  w-full shadow   flex flex-col items-center  cursor-pointer sm:shadow-lg">
             <div class="relative">
-              <img v-if="n == 1" class="  w-full  sm:w-full object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/3.png"
+              <img v-if="n == 1" class="    w-[300px] object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/3.png"
                 alt="Image Size 720x400" />
-              <img v-if="n == 2" class="  w-full  sm:w-full object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/4.png"
+              <img v-if="n == 2" class="  w-[300px] object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/4.png"
                 alt="Image Size 720x400" />
-              <img v-if="n == 3" class="  w-full  sm:w-full object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/5.png"
+              <img v-if="n == 3" class="  w-[300px] object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/5.png"
                 alt="Image Size 720x400" />
-              <img v-if="n == 4" class="  w-full  sm:w-full object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/6.png"
+              <img v-if="n == 4" class="  w-[300px] object-cover sm:h-fit h-64" draggable="false" src="@/assets/1/6.png"
                 alt="Image Size 720x400" />
             </div>
-            <div class="w-full px-6 py-12">
+            <div class="w-[200px] px-2 py-4 h-64">
               <p v-if="n == 1" class="leading-relaxed text-base  ">
                 团结就是力量，团结就是胜利，人心齐，泰山移，
                 只要挚诚公会成员能够团结起来，充分发挥集体力量，拳头有握紧了，
@@ -51,9 +53,9 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
     </div>
     <div class="w-full bg-white ">
       <div class="container px-5 py-5 sm:py-28 mx-auto md:max-w-screen-md lg:max-w-screen-xl bg-HomecardBg">
-        <div class="flex flex-wrap -m-4 justify-center">
+        <div class="flex   justify-center">
           <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 p-4  hover:translate-y-2 transition duration-300 " v-for="m in 4" :key="m">
-            <div class=" w-[275px]  flex flex-col items-center  cursor-pointer ">
+            <div class=" w-[205px]  flex flex-col items-center  cursor-pointer ">
               <img v-if="m == 1" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/8.png" alt="Image Size 720x400" />
               <img v-if="m == 2" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/9.png" alt="Image Size 720x400" />
               <img v-if="m == 3" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/10.png" alt="Image Size 720x400" />
@@ -82,7 +84,8 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
           <div class=" uppercase text-gray-500 text-lg sm:text-[30px]  tracking-widest">cooperation brand</div>
          </div>
       </div>
-      <div class="flex flex-wrap -m-4 justify-center pt-4 sm:pt-10">
+      <Vue3Marquee :pauseOnHover="true" direction="reverse">
+      <div class="flex   justify-center pt-4 sm:pt-10">
           <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 p-4   transition duration-300 " v-for="aa in 4" :key="aa">
             <div class=" w-[275px]  flex flex-col items-center  cursor-pointer ">
               <img v-if="aa == 1" class="  w-fit object-cover h-fit" draggable="false" src="@/assets/1/14.png" alt="Image Size 720x400" />
@@ -92,6 +95,7 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
             </div>
           </div>
         </div>
+      </Vue3Marquee>
     </div>
   </div>
 </template>
