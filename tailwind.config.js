@@ -8,7 +8,17 @@ module.exports = {
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
       },
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.red.300') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
+      animation: {
+        fade: 'fadeOut 5s ease-in-out',
+      },
     },
+    
   },
   plugins: [
     require('@tailwindcss/forms'),

@@ -39,7 +39,7 @@
          </div>
        </div>
     </div> -->
-    <div class="py-5 text-white bg-black ">
-        <p class="text-center text-sm sm:text-base break-words">Copyright © 2019 挚诚公会 版权所有 粤ICP备12087766号</p>
+    <div class="py-5 px-3 text-black sm:text-white sm:hidden bg-[#dda263] z-10 hidden  ">
+        <p class="text-center text-sm sm:text-base break-words">© 挚诚公会保留所有权利</p><!-- 粤ICP备12087766号 -->
     </div>
 </template> 

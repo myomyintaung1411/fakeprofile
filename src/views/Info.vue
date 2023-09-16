@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 w-full">
+    <!-- <div class="bg-gray-100 w-full hidden sm:block">
         <div class="h-fit sm:h-[700px]">
             <img src="@/assets/3/1.png" alt="banner" class="w-full h-full" />
         </div>
@@ -88,5 +88,89 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="sm:hidden w-full">
+        <div class="bg_img">
+            <div class="text-[rgba(196,146,100)] text-center uppercase text-3xl flex flex-col justify-center items-center h-full ">
+                <p class=" opacity-70 m-0 p-0 text-gray-700">Development</p>
+                <p class=" font-bold -mt-[10px] p-0">发展战略</p>
+                <p class=" opacity-70 -mt-[10px] p-0 text-gray-700">STRATGIC</p>
+                <h2 class="text-white text-[22px] ">众志·互助·奉献·共赢</h2>
+                <h4 class="text-white text-[13px] ">Unity Mutual Aid Dedication Win-Win</h4>
+            </div>
+        </div>
+        <div class="py-10 px-10 text-center space-y-6">
+            <div class="text-[rgba(196,146,100)] space-y-2">
+                <span class="font-bold text-xl">◆发展思路◆</span>
+                <p class="text-gray-700">五年内，挚诚公会在金融开放和资本市场中寻求发展，
+                    运用组合投资，分期投资等多种方式投资不同区域，
+                    分散投资风险，注重投资收回和衔接，提高项目投资周转率，
+                    保证投资收益，为带领全体挚诚成员实现更高回报。</p>
+            </div>
+            <div class="text-[rgba(196,146,100)] space-y-2">
+                <span class="font-bold text-xl">◆战略目标◆</span>
+                <p class="text-gray-700">形成相对成熟且行之有效的互联网投资业务模式。
+                    把握行业市场变化，灵活运用投资工具，控制投资风险，
+                    有效提高投资收益率。</p>
+            </div>
+        </div>
+        <div class="bg_img bg_2 relative">
+            <!-- <div class=" text-center uppercase  absolute bottom-0 w-full  ">
+                <div class="mx-6 bg-[#996c3c] h-16 flex flex-col justify-center items-center text-2xl opacity-70">
+                    <p class="text-[#e6a560]  m-0 p-0 font-bold">Team Development</p>
+                </div>
+            </div> -->
+        </div>
+        <div class="w-full flex justify-center">
+            <div class=" w-[85%] bg-[rgba(196,146,100)] px-5 leading-7 py-6 text-sm space-y-4 text-white text-center ">
+                <p>挚诚怀抱对未来的美好理想，与社会各界朋友携手并肩，
+                    为团队成员提供优质的投资指导，
+                    共同创造及实现成员的财富增值目标。</p>
+                <p>挚诚公会将继续在特殊资产领域深耕细作，
+                    更好地以专业金融能力服务中国互联网经济质效发展。
+                </p>
+            </div>
+        </div>
+        <div class="w-full py-10 px-6 space-y-5 mb-10">
+            <div class="text-gray-700">
+                挚诚公会初衷：挚诚公会从2019年创立至今已过去三年之久，公会本着“勇于创新，务实求索” 的团队核心理念，积极推动国际化，
+                多元化发展战略。挚诚公会在港澳地区，大陆内地以及海外等进行多种形式的投资活动，投资领域涉及实体企业、工业、能源、
+                交通、传媒、金融等行业，为社会经济发展做出了重要贡献。
+            </div>
+            <img src="@/assets/mobile/3/3.png" alt="img" draggable="false"
+                class="w-full md:w-32 lg:w-[70%] h-[250px] " />
+            <div class="text-gray-700">
+                挚诚公会核心成员经过这三年的不懈努力和开拓发展，在不断雄厚团队自身的实力和扩展广泛的业务脉络。发挥整体协作优势，
+                在企业投资、基金投资和管理、不动产投资、资产投资等等方面都取得了骄人的业绩，
+                积累了丰富的经验，形成了挚诚公会团队独有的团队品牌形象，业内的地位的影响力不断提高。挚诚公会
+                深入贯彻落实团队发展战略，保持挚诚公会的良好发展势头，在风险可控的前提下，把握市场机遇，实现挚诚公会长远健康发展，为推动时代经济发展做出卓越贡献，挚诚公会这三年陆续在国内成立挚诚公会分部，为公会最终目标发展做出突破，
+                挚诚初衷为的就是成立挚诚公会核心团队为新成员保驾护航，为公会新成员实现财富增值！
+            </div>
+        </div>
+        <div class="py-5 
+             fixed inset-x-0 bottom-0
+             h-[50px] px-3
+             text-black sm:text-white 
+             sm:bg-black bg-[rgba(196,146,100)] w-full" style="display: flex; justify-content: center; align-items: center;">
+            <p class="text-center text-[12px] sm:text-base break-words">
+             © 挚诚公会保留所有权利
+            </p>
+          </div>
     </div>
 </template>
+
+
+<style scoped>
+    .bg_img{
+      background-image: url("@/assets/mobile/3/1.png");
+      background-size: cover;
+      height: 250px;
+      width: 100%;
+      background-repeat: no-repeat;
+    }
+    .bg_2{
+        height: 200px;
+        background-image: url("@/assets/mobile/3/2.png");
+    }
+    </style>

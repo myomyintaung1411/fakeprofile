@@ -34,6 +34,18 @@ export const routes = [
         meta: { title: 'Contact' },
         component: () => import('./views/Contact.vue')
       },
+      {
+        path: '/news',
+        name: 'News',
+        meta: { title: 'News' },
+        component: () => import('./views/News.vue'),
+      },
+      {
+          path: '/news/para1',
+          name: 'ParaOne',
+          meta: { title: 'ParaOne' },
+          component: () => import('./views/ParaOne.vue'),
+      }
     ]
   },
 
